@@ -1,0 +1,70 @@
+html {
+  margin:0px;
+  padding:0px;
+  overfl-y:scroll;
+  
+}
+
+body {
+  margin:50px;
+  padding:0px;
+  
+  width:100%;
+  font-size:14px;
+  line-height:1.5;
+  
+  font-family:'Helvetica';
+  color: white;
+  
+  min-height:100vh;
+  overflow:hidden;
+  position:relative;
+  
+  background-image: 
+}
+
+.sm-summary-container{
+  position: absolute;
+  text-align: justify;
+  top: 0%;
+  right:35%;
+  width: 40%;
+  height
+ }
+
+.sm-title-container{
+  font-size:17px;
+  
+}
+  
+
+.sm-credit-container{
+  position: absolute;
+  text-align: justify;
+  top: 0%;
+  right:35%;
+  width: 40%;
+  height
+  
+  
+}
+
+.sm-heading-container{
+  font-size:35px;
+  
+}
+
+body{
+background-color: black;
+}
+
+.sm-subheading-container{
+  font-size: 17px;
+}
+
+.sm-colour--on {
+  background-color:black;
+  background-color: red;
+}
+
+.sm-move--on .sm-heading-container
