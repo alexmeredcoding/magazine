@@ -1,57 +1,65 @@
 html {
   margin:0px;
   padding:0px;
-  overfl-y:scroll;
-  
+  overflow-y:scroll;
+
 }
 
 body {
   margin:50px;
   padding:0px;
-  
+
   width:100%;
   font-size:14px;
   line-height:1.5;
-  
+
   font-family:'Helvetica';
   color: white;
-  
+
   min-height:100vh;
   overflow:hidden;
   position:relative;
-  
-  background-image: 
+
+  background-image:
 }
 
 .sm-summary-container{
   position: absolute;
   text-align: justify;
-  top: 0%;
+  bottom: 0;
   right:35%;
   width: 40%;
   height
  }
 
+/* TITLE */
 .sm-title-container{
+  bottom: 0;
   font-size:17px;
-  
 }
-  
+
 
 .sm-credit-container{
   position: absolute;
   text-align: justify;
-  top: 0%;
+  bottom: 0;
   right:35%;
   width: 40%;
   height
-  
-  
+
+
+}
+
+.ww-image-main-one {
+position: relative;
+top: 0;
 }
 
 .sm-heading-container{
+  text-align: justify;
+  bottom: 0;
   font-size:35px;
-  
+
 }
 
 body{
@@ -59,6 +67,7 @@ background-color: black;
 }
 
 .sm-subheading-container{
+  bottom: 0;
   font-size: 17px;
 }
 
@@ -66,5 +75,3 @@ background-color: black;
   background-color:black;
   background-color: red;
 }
-
-.sm-move--on .sm-heading-container
