@@ -23,7 +23,7 @@ body {
   background-image:
 }
 
-.sm-summary-container{
+.sm-summary-container {
   position: absolute;
   text-align: justify;
   bottom: 0;
@@ -33,13 +33,13 @@ body {
  }
 
 /* TITLE */
-.sm-title-container{
+.sm-title-container {
   bottom: 0;
   font-size:17px;
 }
 
 
-.sm-credit-container{
+.sm-credit-container {
   position: absolute;
   text-align: justify;
   bottom: 0;
@@ -63,7 +63,7 @@ top: 0;
 }
 
 body{
-background-color: black;
+  background-color: black;
 }
 
 .sm-subheading-container{
@@ -71,7 +71,84 @@ background-color: black;
   font-size: 17px;
 }
 
+/* When off it should be black */
+/* When on background colour should change to red */
 .sm-colour--on {
-  background-color:black;
   background-color: red;
+}
+
+/* POSITION SWITCH STYLING */
+/* When on position everything differently */
+.sm-position--on .sm-credit-container {
+  width: 100%;
+}
+.sm-position--on .sm-title-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+.sm-position--on .sm-title-col {
+  width: 50%;
+}
+.sm-position--on .sm-title-container h1 {
+  font-size: 10vw;
+	margin-bottom: 10vh;
+	margin-top: 0;
+}
+.sm-position--on .sm-title-col--top-pad {
+  margin-top: 30vh;
+}
+
+
+/* MOVE SWITCH STYLING */
+/* When on animate */
+@keyframes move-left-to-right {
+  0% {
+    margin-left: 0;
+  }
+
+  50% {
+    margin-left: 60vw;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+.sm-move--on .sm-heading-container .sm-left-to-right {
+  animation: move-left-to-right 5s ease infinite;
+}
+@keyframes move-right-to-left {
+  0% {
+    margin-left: 0;
+  }
+
+  50% {
+    margin-left: -30vw;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+.sm-move--on .sm-heading-container .sm-right-to-left {
+  animation: move-right-to-left 5s ease infinite;
+}
+
+@media only screen and (max-width: 400px) {
+
+  .ww-image-main-one {
+  position: relative;
+  top: 0;
+  width: 100%;
+  }
+
+  .sm-subheading-container {
+  bottom: 0;
+  font-size: 17px;
+  }
+
 }
