@@ -118,7 +118,7 @@ body{
     margin-left: 0;
   }
 }
-.sm-move--on .sm-heading-container .sm-left-to-right {
+.sm-move--on .sm-heading-container {
   animation: move-left-to-right 5s ease infinite;
 }
 @keyframes move-right-to-left {
@@ -134,7 +134,7 @@ body{
     margin-left: 0;
   }
 }
-.sm-move--on .sm-heading-container .sm-right-to-left {
+.sm-move--on .sm-heading-container {
   animation: move-right-to-left 5s ease infinite;
 }
 
